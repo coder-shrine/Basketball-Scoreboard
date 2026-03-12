@@ -1,0 +1,193 @@
+@font-face{
+   font-family:cursed-timer;
+   src: url(./CursedTimerUlil-Aznm.ttf);
+   font-weight: normal;
+   font-style: normal;
+}
+
+body {
+    margin: 0;
+    height:100vh;
+    background-color: #1E2348;
+    font-family: cursed-timer;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.score-board{
+    display: flex;
+    justify-content:center;
+    width:100%;
+}
+
+.home-team{
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:460px;
+    margin:5px;
+   
+}
+
+.guest-team{
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 460px;
+    margin:5px;
+    
+}
+
+.mid-section{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.counters{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.timer-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width:300px;
+    min-height:150px;
+    width:300px;
+    height:150px;
+    background-color: black;
+    margin-top: 40px;   
+    border-radius: 8px;
+}
+
+.period-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width:50px;
+    min-height:50px;
+    width:50px;
+    height:50px;
+    background-color: black;
+    margin: 50px;   
+}
+
+.fouls-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width:100px;
+    min-height:100px;
+    width:100px;
+    height:100px;
+    background-color: black;
+    margin: 50px;  
+}
+
+#timer{
+    font-size: 80px;
+    color: white;
+}
+
+#period{
+    color:white;
+    font-size: 40px;
+    transform: translateY(4px);
+}
+
+.display{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:325px;
+    height:265px;
+    background-color: #080001;
+    border-radius: 10px;
+    
+}
+.fouls-display{
+    color:white;
+    border-radius: 5px;
+}
+
+.fouls-num{
+    font-size: 80px;
+    transform: translateY(8px);
+}
+
+.score-btns{
+    padding:40px;
+}
+
+.pts-btn{
+    background-color:#1E2348;
+    border:1px solid #9AABD8;
+    width:45px;
+    height:45px;
+    border-radius:5px;
+    font-family: cursed-timer;
+    color:#9AABD8;
+}
+
+.foul-pts{
+    background-color:#1E2348;
+    border:1px solid #9AABD8;
+    width:150px;
+    height:45px;
+    border-radius:5px;
+    font-family: cursed-timer;
+    color:#9AABD8;
+}
+
+.score{
+    font-family: cursed-timer;
+    color:#F94F6D;
+    font-size: 180px;
+    transform: translateY(10px);
+}
+
+h3{
+    margin: 50px 0 25px 0;
+    font-size: 60PX;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+}
+
+
+.game-menu{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+
+
+
+.game-btn{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-left:40px;
+    background-color: #080001;
+    width:250px;
+    height:60px;
+    background-image: url('basketball.png');
+    background-position: left;
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    margin:5px;
+    border-radius: 30px;
+        
+}
