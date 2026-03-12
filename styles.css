@@ -1,11 +1,3 @@
-@font-face{
-   font-family:cursed-timer;
-   src: url(./assets/CursedTimerUlil-Aznm.ttf);
-   font-weight: normal;
-   font-style: normal;
-   font-display: swap; 
-}
-
 body {
     margin: 0;
     height:100vh;
