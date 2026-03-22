@@ -44,7 +44,7 @@ let isPaused=false;
 let gameOngoing=false;
 
 function addOne(eventTarget){
-    if(gameOngoing===true){
+    if(gameOngoing===true && isPaused===false){
         let id =eventTarget.id;
         if( id === 'home-pts-1'){
             homePts++;
@@ -61,7 +61,7 @@ function addOne(eventTarget){
 
 
 function addTwo(eventTarget){
-    if(gameOngoing===true){
+    if(gameOngoing===true && isPaused===false){
         let id =eventTarget.id;
         if( id === 'home-pts-2'){
             homePts+=2;
@@ -78,7 +78,7 @@ function addTwo(eventTarget){
 
 
 function addThree(eventTarget){
-    if(gameOngoing===true){
+    if(gameOngoing===true && isPaused===false){
         let id =eventTarget.id;
         if(id==='home-pts-3'){
             homePts+=3;
@@ -93,7 +93,7 @@ function addThree(eventTarget){
 }
 
 function teamFouls(eventTarget){
-    if(gameOngoing===true){
+    if(gameOngoing===true && isPaused===false){
         let id =eventTarget.id;
         if(id==='home-fouls-btn'){
             homeFouls++;
