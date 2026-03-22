@@ -39,6 +39,7 @@ let totalSeconds;
 let minutes;
 let seconds;
 let startCountDown;
+
 //State variables
 let alreadyCounting=false;
 let isPaused=false;
