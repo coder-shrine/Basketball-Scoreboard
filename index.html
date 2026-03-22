@@ -12,11 +12,11 @@
                     <h3>HOME</h3>
                     <div class='display'><p class='score' id='home-score'>0</p></div>
                     <div class='score-btns'>
-                        <button class='pts-btn' id='home-pts-1' onclick='addOne(this)'>+1</button>
-                        <button class='pts-btn' id='home-pts-2' onclick='addTwo(this)'>+2</button>
-                        <button class='pts-btn' id='home-pts-3' onclick='addThree(this)'>+3</button>
+                        <button class='pts-btn' id='home-pts-1' >+1</button>
+                        <button class='pts-btn' id='home-pts-2' >+2</button>
+                        <button class='pts-btn' id='home-pts-3' >+3</button>
                     </div>
-                    <button class='foul-pts' id='home-fouls-btn' onclick='teamFouls(this)'>Team Fouls +1</button>
+                    <button class='foul-pts' id='home-fouls-btn' >Team Fouls +1</button>
                 </div>
                 
                 <div class='mid-section'>
@@ -40,10 +40,9 @@
                         <p class="label">Guest Fouls</p>
                     </div>
                     <div class='game-menu'>
-                        <button class='game-btn' onclick='startGame()'>Start game</button>
-                        <button class='game-btn' onclick='gameReset()'>Reset Game</button>
-                        <button class='game-btn' id='pauseResume' onclick='pauseUnpauseGame()'>
-                            Pause Game</button>
+                        <button class='game-btn' id='start-game'>Start game</button>
+                        <button class='game-btn' id='reset-game'>Reset Game</button>
+                        <button class='game-btn' id='pauseResume'>Pause Game</button>
                     </div>
                 </div>
                 
@@ -51,11 +50,11 @@
                         <h3>GUEST</h3>
                         <div class='display'><p class='score' id='guest-score'>0</p></div>
                         <div class='score-btns'>
-                            <button class='pts-btn' id='guest-pts-1' onclick='addOne(this)'>+1</button>
-                            <button class='pts-btn' id='guest-pts-2' onclick='addTwo(this)'>+2</button>
-                            <button class='pts-btn' id='guest-pts-3' onclick='addThree(this)'>+3</button>
+                            <button class='pts-btn' id='guest-pts-1' >+1</button>
+                            <button class='pts-btn' id='guest-pts-2' >+2</button>
+                            <button class='pts-btn' id='guest-pts-3' >+3</button>
                         </div>
-                        <button class='foul-pts' id='guest-fouls-btn' onclick='teamFouls(this)'>Team Fouls +1</button>
+                        <button class='foul-pts' id='guest-fouls-btn' >Team Fouls +1</button>
                 </div>
             </div>
         </div>
