@@ -2,6 +2,8 @@
 
 Ever needed a simple way to keep track of a basketball game? This is a web app that lets you track scores, manage fouls, and keep time - all in one place. Perfect for pickup games, practice sessions, or just keeping score with friends.
 
+**🚀 Try it live**: [https://basketball-scoreboard-shrine.netlify.app/](https://basketball-scoreboard-shrine.netlify.app/)
+
 ## What You Can Do
 
 - **Keep Score**: Add points for both teams with "+1", "+2", or "+3" buttons. The app shows you who's winning with color changes (green if you're ahead, red if you're behind, yellow if it's tied).
@@ -27,6 +29,12 @@ Basketball-Scoreboard/
 ```
 
 ## How to Get Started
+
+**Option 1: Try it Online (No Setup Needed)**
+
+Just click here: [https://basketball-scoreboard-shrine.netlify.app/](https://basketball-scoreboard-shrine.netlify.app/)
+
+**Option 2: Run it Locally**
 
 1. Clone or download the repo:
 ```bash
@@ -81,14 +89,6 @@ cd Basketball-Scoreboard
 ## Browsers
 
 Works on pretty much any modern browser (Chrome, Firefox, Safari, Edge, etc.)
-
-## Ideas for the Future
-
-- Track individual player stats
-- Add a shot clock
-- Save game stats
-- Mobile app version
-- More customization options
 
 ## License
 
